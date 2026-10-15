@@ -5,7 +5,7 @@ import { useRef } from 'react'
 import type { Group } from 'three'
 import * as THREE from 'three'
 
-const PEONY_URL = '/models/peony.glb'
+const PEONY_URL = `${import.meta.env.BASE_URL}models/peony.glb`
 const HERO_X = 1.75
 /** This Tripo export has the bloom facing +X; turn it toward the camera with a slight downward tilt */
 const PEONY_ROTATION = [0.15, -Math.PI / 2, 0] as const

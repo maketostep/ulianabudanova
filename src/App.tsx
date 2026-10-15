@@ -189,7 +189,7 @@ export default function App() {
 
         <section id="about" className="about section container" aria-labelledby="about-title">
           <div className="about-portrait-wrap reveal">
-            <div className="about-portrait"><img src="/images/portrait.jpg" alt="Ульяна Буданова расставляет лилии на праздничном столе" loading="lazy" decoding="async" /><i /></div>
+            <div className="about-portrait"><img src={`${import.meta.env.BASE_URL}images/portrait.jpg`} alt="Ульяна Буданова расставляет лилии на праздничном столе" loading="lazy" decoding="async" /><i /></div>
           </div>
           <div className="about-copy">
             <p className="eyebrow">обо мне</p>

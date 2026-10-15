@@ -36,4 +36,4 @@ export const reviews = [
   { text: '«Очень точно почувствовали нашу историю и сделали праздник по-настоящему личным. Каждая деталь была на своём месте.»', author: 'Семья юбиляра', tag: 'Частное событие' },
 ] as const
 
-export const projectPhoto = (id: string, index: number) => `/projects/${id}/${String(index).padStart(2, '0')}.jpg`
+export const projectPhoto = (id: string, index: number) => `${import.meta.env.BASE_URL}projects/${id}/${String(index).padStart(2, '0')}.jpg`
